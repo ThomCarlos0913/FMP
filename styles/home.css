@@ -1,0 +1,73 @@
+.jumbotron-fluid {
+  background-image: url("resources/images/jumbotron-backdrop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron-fluid .display-4 {
+  color: white;
+  font-family: sourceBold;
+}
+
+.offerings {
+  list-style-type: circle;
+  font-family: sourceRegular;
+  padding-left: 25px;
+}
+
+.contact-list {
+  list-style-type: circle;
+  font-family: sourceRegular;
+  margin-top: 0px;
+}
+
+.message-form label, .submit-setter {
+  width: 120px;
+  display: inline-block;
+}
+
+.message-form input,textarea {
+  width: 320px;
+  border: 1px solid #004D99;
+  background-color: transparent;
+  padding: 1px 20px;
+  vertical-align: top;
+  margin: 5px 0px;
+}
+
+.message-form input::placeholder {
+  color: #1a1a1a;
+  font-family: sourceRegular;
+  font-size: 14px;
+}
+
+.message-form textarea::placeholder {
+  color: #1a1a1a;
+  font-family: sourceRegular;
+  font-size: 14px;
+  line-height: 90px;
+}
+
+.message-form .submit-message {
+  padding: 5px 10px;
+  width: auto;
+  border: 0;
+  background-color: #1A8CFF;
+  font-family: sourceRegular;
+  font-size: 18px;
+  color: white;
+  margin: 10px 0px;
+}
+
+.map-container, iframe {
+  border: 1px solid #d9d9d9
+}
+
+@media screen and (max-width: 768px) {
+   .submit-setter {
+    width: 0px;
+  }
+}

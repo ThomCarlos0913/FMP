@@ -1,0 +1,309 @@
+body {
+  background-color: #F2F2F2;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+.fmp {
+  font-family: sourceExtraLight;
+}
+
+.panel {
+  margin-top: 30px;
+}
+
+/* Control Panel */
+.controlpanel {
+  background-color: #EAEAEA;
+}
+
+.nav-item .active {
+  background-color: #F2F2F2 !important;
+}
+
+.controlpanel .nav-link {
+  font-family: sourceRegular;
+  color: #404040 !important;
+  font-size: 14px;
+}
+
+.controlpanel .nav-item .nav-link {
+  border-top: 0px;
+  border-radius: 0px !important;
+  padding: 3px 15px;
+}
+
+.controlpanel .nav-item {
+  margin: 0px !important;
+}
+
+.controlpanel .spacer{
+  margin-left: 20px !important;
+}
+
+
+/* Control Body */
+.controlbody .approvedapplications {
+  display: none;
+}
+
+.controlbody .admincreator {
+  padding: 50px;
+  display: none;
+}
+
+.controlbody .systemlogs {
+  display: none;
+}
+
+/* Forms */
+.textbox {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #ADADAD;
+}
+
+.lbl {
+  color: #004D99;
+  margin-bottom: 0px;
+  font-family: sourceSemiBold;
+}
+
+.note {
+  color: red;
+  font-family: sourceRegular;
+  font-size: 12px;
+}
+
+.important {
+  color: red;
+}
+
+.formbtn {
+  font-size: 14px;
+  font-family: sourceSemiBold;
+  color: white;
+  border: 0;
+  background-color: #004D99;
+}
+
+.clearbtn {
+  font-size: 14px;
+  font-family: sourceSemiBold;
+  color: white;
+  border: 0;
+  background-color: #004D99;
+}
+
+
+/* Table and Table options */
+.tableoptions {
+  margin: 20px 20px 5px 20px;
+  background-color: #EAEAEA;
+  border: 1px solid #b3b3b3;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+
+.tablecontainer {
+  border: 1px solid #b3b3b3;
+  margin: 0px 20px 20px 20px;
+}
+
+.filterbutton {
+  margin: 0px 10px;
+  color: #4D4D4D !important;
+}
+
+.activefilter {
+  font-family: sourceBold;
+  color: #1A8CFF !important;
+}
+
+.tablebutton {
+  background-color: #004D99;
+  border: 0px;
+  color: white;
+  padding: 5px 20px;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px gray;
+}
+
+.deletebutton {
+  background-color: #ff4d4d !important;
+}
+
+.approvebutton {
+  background-color: #00b359 !important;
+}
+
+.thead-dark th {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+/* Biodata overlay */
+.overlay {
+  position: fixed;
+  left: -100px;
+  top: 0px !important;
+  width: 110%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.biodatacontainer {
+  width: 1130px;
+  height: 600px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 0px #1A1A1A;
+  display: none;
+}
+
+/* Biodata */
+.biodata {
+  margin: 0px 20px;
+}
+
+.dataname {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.namelabel {
+  font-family: sourceRegular;
+  font-size: 10px;
+  margin: 0;
+  color: #808080;
+}
+
+.biosection {
+  font-size: 20px;
+  font-family: sourceSemiBold;
+  color: #004D99;
+}
+
+.name {
+  margin-top: -5px;
+  font-family: sourceSemiBold;
+  font-size: 24px;
+  color: #1A1A1A;
+}
+
+.dataentry {
+  font-size: 16px;
+  margin: 0;
+  color: #808080;
+}
+
+.spacer {
+  margin-top: 20px;
+}
+
+.updatebutton {
+  margin-right: 15px;
+  background-color: #004D99;
+  border: 0px;
+  color: white;
+  padding: 5px 20px;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px gray;
+}
+
+.datavalue {
+  color: #1A1A1A;
+  margin-left: 3px;
+  padding: 0px 10px;
+  font-family: sourceSemiBold;
+}
+
+/* Delete Confirmation and Approve Confirmation */
+.deleteapproval {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 0px #1A1A1A;
+}
+
+.approvalheader {
+  padding: 5px;
+  font-family: sourceSemiBold;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.approvalmessage {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.approvalbtns {
+  margin-left: 10px;
+  width: 70px;
+}
+
+.approvalbtncontainers {
+  margin-top: 35px;
+  padding: 15px;
+}
+
+.filter-stats {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.statfilter {
+  margin-left: 10px;
+}
+
+.filterdropdown {
+  display: inline-block;
+}
+
+.filterdropdown .btn {
+  background-color: #004D99;
+  border: 0px;
+  color: white;
+  padding: 5px 20px;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px gray;
+  border-radius: 0;
+}
+
+.createfeedback {
+  margin-top: 20px;
+  display: none;
+}
+
+.datalabel {
+  margin: 1px 0px;
+  display: inline-block;
+  width: 120px;
+}
+
+.datalabel2 {
+  margin: 1px 0px;
+  display: inline-block;
+  width: 170px;
+}
+
+.idlabel {
+  font-family: sourceSemiBold;
+  margin: 15px;
+}

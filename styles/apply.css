@@ -1,0 +1,461 @@
+.form-header {
+  color: #004D99;
+  font-family: sourceBold;
+  margin-bottom: 40px;
+}
+
+/* Signin/Signup Style */
+.applicant-form label {
+  font-family: sourceSemiBold;
+  color: #1A8CFF;
+}
+
+.applicant-form .textbox, .submit-btn {
+  width: 100%;
+  border: 1px solid #8B8B8B;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.create-nametext {
+  width: 100%;
+  border: 1px solid #8B8B8B;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.middle {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.applicant-form input::placeholder {
+  color: #1a1a1a;
+  font-family: sourceRegular;
+  font-size: 14px;
+}
+
+.applicant-form .remember, .forgot {
+  font-size: 14px;
+  font-family: sourceExtraLight;
+}
+
+.form-padding {
+  margin-left: 50px;
+}
+
+.submit-btn {
+  margin-top: 50px;
+  color: white;
+  background-color: #004D99;
+  font-family: sourceSemiBold;
+  border: 0px;
+}
+
+.signin-responsive-spacer {
+  margin-bottom: 40px;
+}
+
+.create-account-header {
+  font-family: sourceSemiBold;
+  font-size: 26px;
+  color: #333333;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.name-row-input .text-name {
+  margin-left: -10px !important;
+}
+
+.bday-label {
+  font-family: sourceExtraLight;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+#incomplete-form, #password-mismatch, #numeric-error {
+  display: none;
+}
+
+/* Success Page */
+.signup-success {
+  font-family: sourceSemiBold;
+}
+
+.success-message {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.success-icon {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Error Messages */
+.incorrect-message {
+  font-family: sourceRegular;
+  font-size: 16px;
+  color: #ff4d4d;
+  margin-top: 11px;
+  margin-bottom: -35px;
+}
+
+.incorrect-message strong {
+  margin-right: 5px;
+}
+
+.send-application {
+  display: none;
+}
+
+/* Send Application Form */
+.message-asterisks {
+  color: red !important;
+  font-family: sourceRegular !important;
+  font-size: 14px;
+}
+
+.send-application {
+  margin-top: 20px;
+}
+
+.send-application-form .textbox {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: sourceRegular;
+}
+
+.send-application-form .textbox::placeholder {
+  font-size: 12px
+}
+
+.send-application-form .radio-checkbox-label {
+  display: inline-block;
+  font-family: sourceRegular;
+  font-size: 14px;
+  color: #404040;
+  margin: 0px 15px 0px 5px;
+}
+
+.send-application-form label {
+  font-family: sourceSemiBold;
+  font-size: 14px;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+.send-application-form .important {
+  color: red;
+}
+
+.send-application-form .row {
+  margin-bottom: 10px;
+}
+
+.send-application-form input::placeholder {
+  font-family: sourceRegular;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+.send-application-form p {
+  font-family: sourceBold;
+  color: #1A8CFF;
+}
+
+.send-application-form .changebtn {
+  margin-top: 40px;
+  margin-right: 20px;
+  font-family: sourceSemiBold;
+  font-size: 16px;
+  background-color: #1A8CFF;
+  color: white;
+  padding: 5px 30px;
+  border: 0px;
+}
+
+.send-application-form #submit-btn {
+  margin-top: 40px;
+  margin-right: 20px;
+  font-family: sourceSemiBold;
+  font-size: 16px;
+  background-color: #00b300;
+  color: white;
+  padding: 5px 30px;
+  border: 0px;
+
+  display: none
+}
+
+.send-application-form #prev-btn {
+  display: none
+}
+
+.nav-item .signout-account {
+  color: #1A1A1A;
+}
+
+/* Birthday */
+.select-box {
+  padding: 5px 15px;
+  font-family: sourceRegular;
+  color: #7D7D7D;
+  background-color: transparent;
+  border-top: 1px solid #8B8B8B;
+  border-left: 1px solid #8B8B8B;
+  border-bottom: 1px solid #8B8B8B;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.select-year option {
+  font-family: sourceRegular;
+  font-size: 13px;
+  padding: 3px 10px;
+}
+
+.account-navigation-container {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.form-container {
+  padding: 50px 60px;
+}
+
+/* List Group */
+.list-group .list-group-item {
+  font-family: sourceRegular;
+  font-size: 16px;
+  border-radius: 0px;
+}
+
+.list-group .current-tab{
+  background-color: #ccffcc;
+}
+
+.list-group .header {
+  background-color: #1A8CFF;
+  font-family: sourceSemiBold;
+  color: white;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+.list-group .sub-list {
+  padding: 5px 40px;
+}
+
+.list-group .pointer {
+  display: none;
+}
+
+/* Navigation Tabs */
+
+.btn-group .btn {
+  font-family: sourceSemiBold;
+  padding: 5px 20px;
+  border-color: #0066cc;
+  margin-top: 30px;
+  background-color: #1A8CFF ;
+}
+
+.btn-group .active {
+  background-color: #0059b3 !important;
+}
+
+/* Application Tabs */
+.application-tab {
+  display: none;
+  min-height: 400px;
+}
+
+.deleteapproval {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 0px #1A1A1A;
+}
+
+.forgotpassword {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 0px #1A1A1A;
+}
+
+
+.approvalheader {
+  padding: 5px;
+  font-family: sourceSemiBold;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.approvalmessage {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.approvalbtncontainers {
+  margin: 20px 20px 0px 0px;
+}
+
+.approvalbtns {
+  margin-left: 10px;
+  width: 70px;
+}
+
+.sendpass {
+  width: 200px;
+}
+
+.forgottextbox {
+  width: 100%;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+.forgottextbox::placeholder {
+  font-size: 16px;
+}
+
+.forgotform {
+  padding: 0px 20px;
+}
+
+#incomplete-details {
+  display: none;
+  background-color: transparent;
+  color: #ff0000;
+}
+
+#incomplete-details:hover {
+  cursor: default;
+}
+
+/* Application List */
+.application-list {
+  font-family: sourceSemiBold;
+}
+
+/* Image */
+.image {
+  width: 2in;
+  height: 2in;
+  border: 1px solid gray;
+  margin: 10px 0px 20px 0px;
+
+  margin-bottom: 20px;
+}
+
+.file-upload {
+  background-color: #1A8CFF;
+  font-family: sourceSemiBold;
+  color: white !important;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+/* Application Status */
+.application-status {
+  min-height: 300px;
+}
+
+.empty-application {
+  margin: 75px 0px;
+  text-align: center;
+}
+
+.card {
+  margin: 20px 20px;
+}
+
+.card .card-text {
+  margin: 0px;
+}
+
+.card .card-title {
+  font-family: sourceSemiBold;
+}
+
+.trashicon {
+  background-color: transparent;
+  border: 0;
+}
+
+.trashicon:focus {
+  outline: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.button-approval {
+  border: 1px solid #e6e6e6;
+}
+
+.btn-secondary:focus {
+  outline: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.otherlangmess {
+  margin-top: 5px;
+  display: none;
+  font-size: 12px;
+  font-family: sourceRegular !important;
+  color: #ff4d4d !important;
+}
+
+.summary-section-header {
+  font-size: 18px;
+  font-family: sourceSemiBold !important;
+  color: #1a1a1a !important;
+}
+
+.summary-label {
+  display: inline-block;
+  width: 100px;
+  margin: 3px;
+  font-family: sourceSemiBold !important;
+  color: #737373 !important;
+  font-size: 14px;
+}
+
+.summary-value {
+  display: inline-block;
+  background-color: white;
+  font-family: sourceRegular;
+  color: #1a1a1a;
+  padding: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .middle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

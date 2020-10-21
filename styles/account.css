@@ -1,0 +1,56 @@
+.account-setting-form .textbox {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 5px 20px;
+}
+
+.account-setting-form .textbox::placeholder {
+  font-family: sourceRegular;
+  font-size: 16px;
+}
+
+.account-setting-form .spacer {
+  margin: 30px;
+}
+
+.account-setting-form .guide {
+  margin: 2px 0px;
+  font-family: sourceRegular;
+  font-size: 12px;
+  color: gray;
+}
+
+.account-setting-form label {
+  color: #1A1A1A;
+  font-family: sourceSemiBold;
+  margin-bottom: 5px;
+}
+
+.account-setting-form .submitbtn {
+  color: white;
+  background-color: #1A8CFF;
+  font-family: sourceSemiBold;
+  font-size: 18px;
+  border: 0;
+  padding: 5px 15px;
+}
+
+.section-header {
+  font-family: sourceSemiBold;
+  color: #1A8CFF;
+}
+
+.updatemessage {
+  color: #37ae37;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.noupdate {
+  color: #808080;
+}
+
+.errormess {
+  color: #ff6666;
+}

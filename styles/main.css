@@ -1,0 +1,263 @@
+/* Font family */
+@font-face {
+  font-family: "sourceBold";
+  src: url("font/SourceSansProBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sourceRegular";
+  src: url("font/SourceSansProRegular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sourceSemiBold";
+  src: url("font/SourceSansProSemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sourceExtraLight";
+  src: url("font/SourceSansProLight.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
+  font-family: sourceRegular !important;
+  font-size: 20px;
+  color: #4D4D4D;
+}
+
+/* Page Header */
+.header-image {
+  background-image: url("resources/images/header-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: sourceBold;
+  color: white;
+  padding: 10px 170px;
+
+  margin-bottom: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  border-bottom: 2px solid #1A8CFF;
+}
+
+.brand-text-small {
+  font-family: sourceBold;
+  color: #004D99 !important;
+  display: none;
+}
+
+.brand-text {
+  font-family: sourceBold;
+  font-size: 24px;
+  color: #004D99 !important;
+}
+
+.nav-item {
+  padding:0px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.lang-btn{
+  background-color: #1A8CFF;
+  color: white !important;
+}
+
+.navbar-item-container {
+  margin-right: 150px;
+}
+
+.nav-item .nav-selected {
+  font-family: sourceBold;
+  color: #1A8CFF !important;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #004D99;
+  margin-top: 50px;
+}
+
+.footer-content .footer-header, .footer-text {
+  color: white;
+}
+
+.footer-content {
+  padding: 20px 50px 50px 50px;
+}
+
+.footer-header {
+  font-family: sourceSemiBold;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.page-footer .footer-text {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.footer-credits, .footer-credits p {
+  font-family: sourceExtraLight;
+  margin: 0px;
+}
+
+.footer-credits {
+  background-color: #003366;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer-credits p {
+  color: #0080ff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-credits span {
+  margin-left: 10px;
+  color: white;
+}
+
+.footer-list {
+  color: white;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer-list a{
+  color: white;
+}
+
+/* Headers, Paragraphs and Others */
+.header-1 {
+  color: #1A8CFF;
+  font-family: sourceBold;
+}
+
+p {
+  font-family: sourceRegular;
+  color: #4D4D4D;
+}
+
+.p2 {
+  font-family: sourceSemiBold;
+  color: #004D99;
+}
+
+.p3 {
+  margin: 0px;
+}
+
+strong {
+  font-family: sourceBold;
+  font-weight: normal;
+}
+
+hr {
+  border-color: #CCE6FF;
+}
+
+/* Email Overlays */
+.emailoverlay {
+  position: fixed;
+  top: 0px !important;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.emailcontainer {
+  width: 600px;
+  height: 520px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 0px #1A1A1A;
+}
+
+.closebutton {
+  position: relative;
+  background-color: #FF4646;
+  color: white;
+  font-size: 12px;
+  border: 0;
+  padding: 3px 15px;
+  margin: 5px;
+}
+
+.emailoverlayheader {
+  margin-left: 40px;
+  font-family: sourceSemiBold;
+  margin-bottom: 0;
+}
+
+.emailoverlaymessage {
+  font-size: 16px;
+  margin: 0px 40px 20px 40px;
+}
+
+.emailformcontainer {
+  margin-left: 40px;
+}
+
+.messagesent {
+  visibility: hidden;
+  font-size: 14px;
+  color: #00cc66;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  .brand-text-small {
+    display: block !important;
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .lang-btn {
+    background-color: transparent !important;
+    color: #1A8CFF !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .brand-text {
+    margin-left: 150px;
+  }
+
+  .navbar-list-container {
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .header-image {
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-image {
+    padding: 10px 20px;
+  }
+}

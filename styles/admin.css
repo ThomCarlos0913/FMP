@@ -1,0 +1,92 @@
+.admin-login {
+  width: 58vh;
+  height: 90vh;
+  position: absolute;
+  top: 5%;
+
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px #cccccc;
+  border-radius: 10px;
+
+  padding: 50px 30px 0px 30px;
+}
+
+.login-header {
+  color: #004D99;
+  font-family: sourceBold;
+  text-align: center;
+}
+
+.signin-header {
+  color: #004D99;
+  font-family: sourceExtraLight;
+  text-align: center;
+}
+
+.login-form {
+  margin: 30px 0px;
+}
+
+.login-form label {
+  font-family: sourceSemiBold;
+  color: #004D99;
+}
+
+.login-form .textbox, .submit-btn {
+  width: 100%;
+  border: 1px solid #8B8B8B;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login-form input::placeholder {
+  color: #4D4D4D;
+  font-family: sourceExtraLight;
+  font-size: 14px;
+}
+
+.login-form .remember {
+  font-size: 16px;
+  font-family: sourceExtraLight;
+  margin-left: 5px;
+}
+
+.login-form .forgot {
+  font-size: 16px;
+  font-family: sourceExtraLight;
+}
+
+.login-form .submit-btn {
+  margin-top: 50px;
+  color: white;
+  background-color: #004D99;
+  font-family: sourceSemiBold;
+  border: 0px;
+}
+
+.bottom-text p {
+  font-family: sourceExtraLight;
+  font-size: 12px;
+}
+
+.admin-login-error {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #ff6666;
+}
+
+
+@media screen and (max-width: 500px) {
+  .admin-login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 0px;
+  }
+
+  .login-form .forgot {
+    margin-top: 0px;
+  }
+}

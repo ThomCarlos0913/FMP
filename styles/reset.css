@@ -1,0 +1,48 @@
+.welcomemess {
+  font-family: sourceSemiBold;
+}
+
+.resetform {
+  margin-top: 50px;
+}
+
+.resetusername {
+  font-size: 22px;
+}
+
+.resetmessage {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.resettextbox {
+  width: 300px;
+  margin: 10px;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.resetbtn {
+  background-color: #004D99;
+  border: 0px;
+  color: white;
+  padding: 5px 20px;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px gray;
+  border-radius: 0;
+  margin: 30px 10px;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+}
+
+.resetfeedback {
+  display: none;
+}
+
+.reseterror {
+  display: none;
+}
